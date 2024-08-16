@@ -108,7 +108,6 @@ pandoc:
     - "--mathjax"
     - "--toc" 
     - "--embed-resources"
-    - "--standalone"
     
 mathjax:
   tags: none # or 'ams' or 'all'
