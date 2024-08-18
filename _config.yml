@@ -44,7 +44,7 @@ post_asset_folder: true # Relative resouce
 marked:
   prependRoot: true
   postAsset: true
-relative_link: true
+relative_link: true # https://github.com/hexojs/hexo/issues/3036
 future: true
 syntax_highlighter: highlight.js
 highlight:
