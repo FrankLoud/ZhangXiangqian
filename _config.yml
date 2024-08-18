@@ -44,7 +44,7 @@ post_asset_folder: true # Relative resouce
 marked:
   prependRoot: true
   postAsset: true
-relative_link: false
+relative_link: true
 future: true
 syntax_highlighter: highlight.js
 highlight:
