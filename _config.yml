@@ -3,17 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Zhang Xiangqian
+title: 
 subtitle: ''
 description: ''
 keywords:
+email: liucun051949@gmail.com
 author: Frank Loud
-language: en
-timezone: ''
+# language: en
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://frankloud.github.io/ZhangXiangqian
+# url: https://frankloud.github.io/ZhangXiangqian
+url: https://UnifiedFieldTheory.github.io
+# root: ./ZhangXiangqian/
+# root: ./
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,6 +107,23 @@ ignore:
 # theme: landscape
 theme: ayer
 
+# hexo-generator-searchdb 用于搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+
+# hexo-generator-feed 用于生成 RSS 订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+
 pandoc:
   args:
     - "-f"
@@ -128,6 +150,6 @@ mathjax:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/FrankLoud/ZhangXiangqian
+  repo: https://github.com/UnifiedFieldTheory/UnifiedFieldTheory.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
